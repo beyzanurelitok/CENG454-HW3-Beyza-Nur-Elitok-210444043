@@ -64,6 +64,8 @@ namespace CoreBreach.Enemy
 
         private void ReturnToPool()
         {
+            WaveManager waveManager = FindFirstObjectByType<WaveManager>();
+            waveManager?.OnEnemyDied();
             OnReturnToPool();
         }
     }
