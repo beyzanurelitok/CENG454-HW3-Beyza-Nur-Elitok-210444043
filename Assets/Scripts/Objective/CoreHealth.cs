@@ -28,12 +28,5 @@ namespace CoreBreach.Objective
             if (!IsAlive)
                 EventBus.RaiseCoreDied();
         }
-
-        // Geçici test metodu - sonra silinecek
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-                TakeDamage(25f);
-        }
     }
 }
