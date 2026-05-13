@@ -1077,7 +1077,8 @@ GameObject:
   - component: {fileID: 1264571087}
   - component: {fileID: 1264571092}
   - component: {fileID: 1264571091}
-  - component: {fileID: 1264571093}
+  - component: {fileID: 1264571095}
+  - component: {fileID: 1264571094}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1215,7 +1216,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1264571093
+--- !u!114 &1264571094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1224,7 +1225,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1264571086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51d7fb229baf6e44a6bbfe1ad5dae24, type: 3}
+  m_Script: {fileID: 11500000, guid: e7158632902e034419d6936f199e8961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseGun: {fileID: 1264571095}
+  useDoubleShot: 1
+  useRapidFire: 0
+--- !u!114 &1264571095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264571086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e339cc50a93d744a6cfee51beeae88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePool: {fileID: 1418793093}
